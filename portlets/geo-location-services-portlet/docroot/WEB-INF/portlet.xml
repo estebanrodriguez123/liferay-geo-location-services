@@ -18,8 +18,8 @@
 			<portlet-mode>view</portlet-mode>
 		</supports>
 		<portlet-info>
-			<title>Geo Location Services Portlet</title>
-			<short-title>Geo Location Services Portlet</short-title>
+			<title>Geo Location Services </title>
+			<short-title>Geo Location Services </short-title>
 			<keywords></keywords>
 		</portlet-info>
 		<security-role-ref>
