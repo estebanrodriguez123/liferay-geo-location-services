@@ -14,6 +14,7 @@
 
 package com.rivetlogic.geo.service.impl;
 
+import com.liferay.portal.security.ac.AccessControlled;
 import com.rivetlogic.geo.service.base.GeoLocationsServiceBaseImpl;
 
 /**
@@ -36,6 +37,7 @@ public class GeoLocationsServiceImpl extends GeoLocationsServiceBaseImpl {
 	 *
 	 * Never reference this interface directly. Always use {@link com.rivetlogic.geo.service.GeoLocationsServiceUtil} to access the geo locations remote service.
 	 */
+	@AccessControlled(guestAccessEnabled=true)
 	public String getLocation(String IP){
 		return geoLocationsLocalService.getLocation(IP);
 	}
